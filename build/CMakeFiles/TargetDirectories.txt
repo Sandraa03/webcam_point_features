@@ -1,3 +1,4 @@
 /media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles/rebuild_cache.dir
+/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles/point_features_1zona.dir
 /media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles/edit_cache.dir
 /media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles/point_features.dir

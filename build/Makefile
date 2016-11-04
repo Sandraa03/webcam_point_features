@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named point_features_1zona
+
+# Build rule for target.
+point_features_1zona: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 point_features_1zona
+.PHONY : point_features_1zona
+
+# fast build rule for target.
+point_features_1zona/fast:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/build
+.PHONY : point_features_1zona/fast
+
+#=============================================================================
 # Target rules for targets named point_features
 
 # Build rule for target.
@@ -150,6 +163,33 @@ src/point_features.cpp.s:
 	$(MAKE) -f CMakeFiles/point_features.dir/build.make CMakeFiles/point_features.dir/src/point_features.cpp.s
 .PHONY : src/point_features.cpp.s
 
+src/point_features_en1zona.o: src/point_features_en1zona.cpp.o
+
+.PHONY : src/point_features_en1zona.o
+
+# target to build an object file
+src/point_features_en1zona.cpp.o:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/src/point_features_en1zona.cpp.o
+.PHONY : src/point_features_en1zona.cpp.o
+
+src/point_features_en1zona.i: src/point_features_en1zona.cpp.i
+
+.PHONY : src/point_features_en1zona.i
+
+# target to preprocess a source file
+src/point_features_en1zona.cpp.i:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/src/point_features_en1zona.cpp.i
+.PHONY : src/point_features_en1zona.cpp.i
+
+src/point_features_en1zona.s: src/point_features_en1zona.cpp.s
+
+.PHONY : src/point_features_en1zona.s
+
+# target to generate assembly for a file
+src/point_features_en1zona.cpp.s:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/src/point_features_en1zona.cpp.s
+.PHONY : src/point_features_en1zona.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... point_features_1zona"
 	@echo "... edit_cache"
 	@echo "... point_features"
 	@echo "... src/point_features.o"
 	@echo "... src/point_features.i"
 	@echo "... src/point_features.s"
+	@echo "... src/point_features_en1zona.o"
+	@echo "... src/point_features_en1zona.i"
+	@echo "... src/point_features_en1zona.s"
 .PHONY : help
 
 

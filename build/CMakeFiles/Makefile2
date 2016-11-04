@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = "/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/U
 CMAKE_BINARY_DIR = "/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build"
 
 #=============================================================================
+# Target rules for target CMakeFiles/point_features_1zona.dir
+
+# All Build rule for target.
+CMakeFiles/point_features_1zona.dir/all:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/depend
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles" --progress-num=3,4 "Built target point_features_1zona"
+.PHONY : CMakeFiles/point_features_1zona.dir/all
+
+# Include target in all.
+all: CMakeFiles/point_features_1zona.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/point_features_1zona.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/point_features_1zona.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/sandra/Sandra 1TB/UVic/Trimestre1/SistemesPercepcio/Unitat2/webcam_point_features/build/CMakeFiles" 0
+.PHONY : CMakeFiles/point_features_1zona.dir/rule
+
+# Convenience name for target.
+point_features_1zona: CMakeFiles/point_features_1zona.dir/rule
+
+.PHONY : point_features_1zona
+
+# clean rule for target.
+CMakeFiles/point_features_1zona.dir/clean:
+	$(MAKE) -f CMakeFiles/point_features_1zona.dir/build.make CMakeFiles/point_features_1zona.dir/clean
+.PHONY : CMakeFiles/point_features_1zona.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/point_features_1zona.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/point_features.dir
 
 # All Build rule for target.

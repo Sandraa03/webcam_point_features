@@ -12,9 +12,11 @@ INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIR})
 
 #Create an executable
 ADD_EXECUTABLE(${PROJECT_NAME} src/point_features.cpp)
+ADD_EXECUTABLE(${PROJECT_NAME}_1zona src/point_features_en1zona.cpp)
 
 #Link with libraries
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME}_1zona ${OpenCV_LIBS})
 
 # # Setting this prefix will be used by INSTALL commands in next CMakeLists
 # SET(CMAKE_INSTALL_PREFIX /usr/local)
